@@ -1,6 +1,6 @@
 {
   "name": "ffc-database",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "description": "Database npm module for FCP services",
   "main": "index.js",
   "scripts": {
@@ -35,5 +35,10 @@
     "jest": "29.7.0",
     "jest-junit": "17.0.0",
     "neostandard": "0.12.2"
+  },
+  "overrides": {
+    "sequelize": {
+      "uuid": "11.1.1"
+    }
   }
 }
