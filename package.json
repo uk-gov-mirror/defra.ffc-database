@@ -1,6 +1,6 @@
 {
   "name": "ffc-database",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "description": "Database npm module for FCP services",
   "main": "index.js",
   "scripts": {
